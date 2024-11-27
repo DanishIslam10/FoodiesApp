@@ -1,0 +1,91 @@
+|-- .eslintrc.json
+|-- .gitignore
+|-- app
+    |-- community
+        |-- page.jsx
+    |-- favicon.ico
+    |-- globals.css
+    |-- layout.js
+    |-- meals
+        |-- error.jsx
+        |-- page.jsx
+        |-- share
+            |-- page.jsx
+        |-- [mealSlug]
+            |-- not-found.jsx
+            |-- page.jsx
+    |-- not-found.jsx
+    |-- page.jsx
+|-- assets
+    |-- background.jpg
+    |-- burger.jpg
+    |-- curry.jpg
+    |-- dumplings.jpg
+    |-- icons
+        |-- community.png
+        |-- events.png
+        |-- meal.png
+    |-- logo.png
+    |-- macncheese.jpg
+    |-- pizza.jpg
+    |-- schnitzel.jpg
+    |-- tomato-salad.jpg
+|-- components
+    |-- Header.jsx
+    |-- ImageSlideShow.jsx
+    |-- InformationSection.jsx
+    |-- meals
+        |-- ImagePicker.jsx
+        |-- MealItem.jsx
+        |-- MealsGrid.jsx
+        |-- ShareMealForm.jsx
+    |-- Navlink.jsx
+|-- data
+    |-- homepageData.js
+|-- initdb.js
+|-- jsconfig.json
+|-- lib
+    |-- meals.js
+    |-- operations.js
+|-- meals.db
+|-- next.config.mjs
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.js
+|-- postcss.config.mjs
+|-- public
+    |-- file.svg
+    |-- globe.svg
+    |-- images
+        |-- beef-tacos.jpeg
+        |-- bflbwwjbf.jfif
+        |-- burger.jpg
+        |-- chocolate-brownies.jpg
+        |-- curry.jpg
+        |-- delicious-pasta-recipe.jpg
+        |-- dummy-meal-3.jpg
+        |-- dummy-meal-4.jpeg
+        |-- dumplings.jpg
+        |-- feq.jpg
+        |-- grilled-chicken-salad.jpg
+        |-- hvjvh.jpeg
+        |-- kbqf.jpg
+        |-- kdqjbdk.jpeg
+        |-- logo.png
+        |-- macncheese.jpg
+        |-- nalli-nihari.jpg
+        |-- pizza.jpg
+        |-- qdw.jpg
+        |-- qfqf.jpg
+        |-- qjfbvqk.jpeg
+        |-- schnitzel.jpg
+        |-- spaghetti-bolognese.jpg
+        |-- test-meal-1.jpg
+        |-- test-meal-2.jpg
+        |-- tomato-salad.jpg
+        |-- wdjb.jpeg
+    |-- next.svg
+    |-- vercel.svg
+    |-- window.svg
+|-- README.md
+|-- tailwind.config.js

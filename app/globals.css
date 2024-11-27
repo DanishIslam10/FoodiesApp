@@ -1,21 +1,28 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html , body {
+  background-color: rgb(26,30,35);
+  font-family: 'Quicksand', sans-serif;
+  height: 100%; /* Ensures both occupy the full height of the viewport */
+  margin: 0; /* Removes default margin */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.share-meal-form input,textarea{
+ background-color: #0f1317;
+ border: 1px solid rgb(69, 69, 69);
+ padding: 10px;
+}
+.share-meal-form label{
+ color: #9f9d9e;
+ font-size: 1rem;
+ text-transform:uppercase;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.share-meal-form span{
+  color: rgb(252, 145, 145);
+  font-size: 0.8rem;
 }
+
